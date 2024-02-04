@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="application-name" content="Home Page Responsiva">
+    <meta name="description" content="Está é uma home page responsiva">
+    <meta name="keywords" content="HTML5, tag, homepage">
+    <meta name="author" content="Wesley dos Anjos">
+    <meta name="generetor" content="Visual Studio Code">
+    <title>Home Page</title>
+    <link rel="shortcut icon" href="./assets/images/html-ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css" type="text/css">
+</head>
+<body>
+    <header>
+        <form id="register">
+            <p>Cadastre-se</p>
+            <div class="field">
+                <input type="text" id="name" placeholder="Digite seu nome..." autocomplete="name">
+            </div>
+            <div class="field">
+                <input type="email" id="email" placeholder="Digite seu e-mail..." autocomplete="current-password">
+            </div>
+            <div class="field">
+                <input type="date" placeholder="Data de Nascimento">
+            </div>
+            <div class="field">
+                <label>
+                    <input type="radio" name="gender" value="M">
+                    <span>Masculino</span>
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="F">
+                    <span>Feminino</span>
+                </label>
+            </div>
+            <button>Registrar</button>
+        </form>
+        <div class="bg-gradient">
+            <div class="header-border">
+                <div id="logo">
+                    Business
+                </div>
+                <nav class="menu">
+                    <button type="button" class="open-menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                    <div class="backdrop"></div>
+                    <ul>
+                        <li class="close-menu"><button type="button"><i class="fa fa-times" aria-hidden="true"></i></button></li>
+                        <li><a href="./index.html" title="Home Page" rel="follow">Home</a></li>
+                        <li><a href="#" title="About" rel="next">About</a></li>
+                        <li><a href="#" title="Contact" rel="next">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <main class="container">
+            <div class="title">
+                <h1>Home Page</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa illo saepe tempore eaque excepturi aut possimus molestias nulla sit aliquid, illum impedit, dolores totam dolorem minima adipisci temporibus quisquam quia.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam beatae, assumenda ipsam praesentium voluptatum vel aperiam soluta quia quas, asperiores culpa incidunt consequuntur magni quod quo ipsa, a sed! Quia!
+            Error optio unde dignissimos distinctio dolore aliquid? Rerum iure soluta perspiciatis est sapiente deserunt minus, quod iste aspernatur doloribus quam doloremque laborum quo voluptatum? Perspiciatis aperiam numquam adipisci modi quae.
+            Esse ab vitae tenetur obcaecati ipsum sunt voluptatem a suscipit, natus quae officiis fuga cumque omnis minus similique nam vel perspiciatis. Doloremque itaque facilis eum tenetur, aperiam officiis tempore quae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint enim velit. Nostrum sunt quasi libero blanditiis tenetur praesentium ipsa placeat accusamus, doloremque quia facere deserunt. Asperiores fugit sunt voluptas.
+            Inventore magnam minima mollitia excepturi! Laboriosam, ad accusamus enim aut adipisci molestias voluptatum ea necessitatibus, amet earum quam, impedit blanditiis vitae sint esse labore praesentium perferendis eius officiis accusantium in!</p>
+        </main>
+    </section>
+    <footer>
+        <div class="container">
+            <p>Todos os direitos reservados</p>
+            <nav class="menu">
+                <ul>
+                    <li><a href="./index.html" title="Home Page" rel="follow">Home</a></li>
+                    <li><a href="#" title="About" rel="next">About</a></li>
+                    <li><a href="#" title="Contact" rel="next">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js" type="text/javascript"></script>
+</body>
+</html>
